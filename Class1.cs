@@ -51,24 +51,24 @@ using Microsoft.VisualBasic;
 
 
 
-//class Programm
-//{
-//    static void Main()
-//    {
-//        int a, b;
-//        string buf;
-//        Console.Write("Enter a: ");
-//        buf = Console.ReadLine();
-//        a = Int32.Parse(buf);
-//        Console.Write("Enter b: ");
-//        buf = Console.ReadLine();
-//        b = Int32.Parse(buf);
+class Programm
+{
+    static void Main()
+    {
+        int a, b;
+        string buf;
+        Console.Write("Enter a: ");
+        buf = Console.ReadLine();
+        a = Int32.Parse(buf);
+        Console.Write("Enter b: ");
+        buf = Console.ReadLine();
+        b = Int32.Parse(buf);
 
-//        int c = a + b;
-//        Console.Write(a + b);
-//        Console.Read();
-//    }
-//}
+        int c = a + b;
+        Console.Write(a + b);
+        Console.Read();
+    }
+}
 
 
 
